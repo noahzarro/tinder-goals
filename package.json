@@ -1,0 +1,5 @@
+"scripts":{
+    "sass:watch": "npm run sass -- -w ./src/public/stylesheets -r --source-map true",
+    "livereload": "live-reload --port 9091 ./src/**/*",
+    "dev:watch" : "npm run sass:watch; npm run livereload"
+}
